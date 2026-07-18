@@ -1,0 +1,213 @@
+
+
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  hyphens: auto;
+  -webkit-hyphens: auto; 
+   -epub-hyphens: auto; 
+  orphans: 2;
+  widows: 2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.2;
+  hyphens: none;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: 0 0 1em 0;
+  break-before: page;
+  page-break-before: always;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 2em 0 1em 0;
+}
+
+h3 {
+  font-size: 1.25em;
+  margin: 1.5em 0 0.75em 0;
+}
+
+h4 {
+  font-size: 1.1em;
+  margin: 1.25em 0 0.5em 0;
+}
+
+h5, h6 {
+  font-size: 1em;
+  font-style: italic;
+  margin: 1em 0 0.5 em 0;
+}
+
+.book-title {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.book-author {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.chapter-title {
+break-before: page;
+  page-break-before: always;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.6em;
+  text-indent: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.smallcaps {
+  font-variant: small-caps;
+}
+
+blockquote {
+border-left: 4px solid #808080; 
+  padding-left: 15px;            
+  margin-left: 0;                
+  margin-right: 0;
+  color: #555555;                
+  font-style: italic;            
+  font-size: 0.95em;
+}
+
+ul, ol {
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+img {
+  max-height: 95vh;         
+  max-width: 100%;         
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+p.illustration {
+margin-bottom: 1em
+}
+
+figure {
+  margin: 1.5em 0;
+  text-align: center;
+  page-break-inside: avoid;
+  break-inside: avoid; 
+}
+
+figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: 0.85em;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.cover {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.cover img {
+  width: 100%;
+  height: auto;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #999;
+  width: 100%;
+  margin: 2em auto;
+}
+
+.footnote {
+  font-size: 0.85em;
+  vertical-align: super;
+}
+
+.footnote-text {
+  font-size: 0.9em;
+  margin-top: 1em;
+  border-top: 1px solid #ccc;
+  padding-top: 0.5em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.9em;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 0.4em 0.6em;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.center {
+  text-align: center;
+  text-indent: 0;
+}
+
+.no-break { 
+page-break-inside: avoid; 
+break-inside: avoid; 
+} 
+
+.page-break { 
+border: 0; 
+margin: 0; 
+padding: 0; 
+page-break-before: always; 
+break-before: page; 
+} 
+
+.small {
+  font-size: 0.85em;
+}
