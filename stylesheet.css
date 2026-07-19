@@ -1,0 +1,154 @@
+
+
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 1.5em;
+  padding: 0;
+  text-align: left;
+  hyphens: auto;
+  -webkit-hyphens: auto; 
+   -epub-hyphens: auto; 
+  orphans: 2;
+  widows: 2;
+}
+
+h1, h2 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-top: 1.2em;
+  margin-bottom: 0.8em;
+  hyphens: none;
+}
+
+h1 {
+  font-size: 1.6em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.4em;
+  text-align: left;
+}
+
+.book-title {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.book-author {
+  font-size: 1.6em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.7em;
+  text-indent: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+blockquote {
+border-left: 4px solid #808080; 
+  padding-left: 15px;            
+  margin-left: 0;                
+  margin-right: 0;
+  color: #555555;                
+  font-style: italic;            
+  font-size: 0.95em;
+}
+
+ul, ol {
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+img {        
+  max-width: 100%; 
+  width: 100%;            
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+p.illustration {
+margin-bottom: 1em
+}
+
+.cover {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.cover img {
+  width: 100%;
+  height: auto;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #999;
+  width: 100%;
+  margin: 2em auto;
+}
+
+.footnote {
+  font-size: 0.85em;
+  vertical-align: super;
+}
+
+.footnote-text {
+  font-size: 0.9em;
+  margin-top: 1em;
+  border-top: 1px solid #ccc;
+  padding-top: 0.5em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 1em;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 0.4em 0.6em;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.center {
+  text-align: center;
+  text-indent: 0;
+}
+
+
+
